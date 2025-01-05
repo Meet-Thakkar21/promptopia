@@ -45,7 +45,7 @@ const handler = NextAuth({
     },
   }
 })
-console.log("Google Client ID:", process.env.GOOGLE_CLIENT_ID);
-console.log("Google Client Secret:", process.env.GOOGLE_CLIENT_SECRET);
-console.log("MONGODB_URL: ", process.env.MONGODB_URL);
+// console.log("Google Client ID:", process.env.GOOGLE_CLIENT_ID);
+// console.log("Google Client Secret:", process.env.GOOGLE_CLIENT_SECRET);
+// console.log("MONGODB_URL: ", process.env.MONGODB_URL);
 export { handler as GET, handler as POST }
